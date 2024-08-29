@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav{
+    height: 14vh;
+
+    background-color: red;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.nav ul {
+    display: flex;
+
+}
+.nav ul li {
+ list-style: none; 
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    padding: 3rem;
+    box-sizing: border-box;
+    
+}
+.nav ul li a:hover{
+  
+  color: black;
+}
+.nav ul ul{
+    display: none;
+    position: absolute;
+    top: 10%;
+    background-color: black;
+}
+.nav ul li:hover ul{
+    display: block;
+ 
+}
